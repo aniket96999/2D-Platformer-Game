@@ -15,8 +15,8 @@ public class CharacterCreationMenu : MonoBehaviour
     public void Submit()
     { 
 	#if UNITY_EDITOR
-        	PrefabUtility.SaveAsPrefabAsset(character, "Assets/Player.prefab");
-        #endif
+        PrefabUtility.SaveAsPrefabAsset(character, "Assets/Player.prefab");
+    #endif
         SceneManager.LoadScene(1);
     }
     public void RandomizeCharacter()

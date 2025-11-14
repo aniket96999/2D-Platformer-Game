@@ -144,4 +144,22 @@ public class UIhandler : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
+
+    
+    public void LoadPrevLevel()
+    {
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        int prevIndex = currentIndex - 1;
+
+        if (prevIndex >= 0)
+        {
+            SceneManager.LoadScene(prevIndex);
+        }
+        else
+        {
+            Debug.LogWarning("No more scenes in build settings. Looping to first scene.");
+            SceneManager.LoadScene(0);
+            
+        }
+    }
 }
