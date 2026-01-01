@@ -1,6 +1,8 @@
 # 2D-Platformer-Game
 An 2D Platformer Math Problem Solver Game made for Kids for interactive and Fun Learning
 
+For more Details Go Through https://github.com/aniket96999/2D-Platformer-Game/blob/main/Math%20Explorer.pdf
+
 #Product Functions:
 
 The major functions of the system include:
